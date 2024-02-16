@@ -1,0 +1,109 @@
+/* most common breakpoints -1366px, 1024px, 768px, 568px,  */
+/* custom breakpoints -600px */
+
+@media only screen and (max-width: 1366px){
+   .animated-bar-message{
+        margin-left: 1rem;
+   }
+   .animated-bar-btn{
+    margin-right: 1rem;
+   }
+   /* what we do */
+   .services-main-div{
+    padding: 0 1rem;
+   }
+}
+@media only screen and (max-width: 1024px){
+    /* nav bar */
+    .menu-div{
+        gap: 4rem;
+    }
+    /* cards section */
+    .cards-main-div{
+        gap: 1rem;
+    }
+    /* excellence */
+    .excellence-maintext{
+        font-size: 6rem;
+    }
+    .excellence-maintext span{
+        font-size: 4rem;
+    }
+    .excellence-subtext{
+        font-size: 2rem;
+    }
+    /* integreated services */
+    .i-cards-div{
+        gap: 1rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    /* nav bar */
+    .menu-div{
+        gap: 1rem;
+    }
+     /* cards section */
+     .cards-heading{
+        font-size: 1.8rem;
+    }
+    /* integrated services */
+    .i-cards-div{
+        grid-template-columns: repeat(3, auto);
+    }
+    /* footer */
+    .footer-log-img{
+        height: 8rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    /* nav bar */
+    .menu-link:link,
+    .menu-link:visited{
+        font-size: 1.8rem;
+    }
+
+    /* what we do */
+
+    .services-main-div{
+       
+        grid-template-areas: 
+        "serv-h serv-h serv-h serv-h serv-h "
+        "soft-i soft-t soft-t soft-t soft-t "
+        "tech-i tech-t tech-t tech-t tech-t "
+        "int-i int-t int-t int-t int-t "
+        "sec-i sec-t sec-t sec-t sec-t "
+        
+    }
+     /* excellence */
+     .excellence-maintext{
+        font-size: 5rem;
+    }
+    .excellence-maintext span{
+        font-size: 3rem;
+    }
+    .excellence-subtext{
+        font-size: 1rem;
+    }
+      /* integrated services */
+      .i-cards-div{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media only screen and (max-width:568px){
+    /* nav bar */
+    .menu-link:link,
+    .menu-link:visited{
+        font-size: 1.6rem;
+    }
+    /* cards section */
+    .card-icon{
+        font-size: 2.5rem;
+    }
+    /* footer */
+    footer{
+        grid-template-columns: 1fr;
+    }
+}
+
+
